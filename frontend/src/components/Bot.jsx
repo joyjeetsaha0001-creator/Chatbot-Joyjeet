@@ -50,7 +50,7 @@ const Bot = () => {
       {/*Header*/}
       <header className="fixed top-0 left-0 w-full border-b border-gray-800 bg-[#0d0d0d] z-10">
         <div className="container mx-auto flex justify-between items-center px-6 py-4">
-          <h1 className="text-lg font-bold">Chatbot</h1>
+          <h1 className="text-lg font-bold">Chatbro</h1>
           <FaUserCircle size={30} className="cursor-pointer" />
         </div>
       </header>
@@ -77,7 +77,7 @@ const Bot = () => {
 
               {loading && (
                 <div className="bg-gray-700 text-gray-300 px-4 py-2 rounded-xl max-w-[60%] self-start">
-                  Bot is typing...
+                  JoyBot is typing...
                 </div>
               )}
               <div ref={messageEndRef} />
